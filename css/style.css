@@ -1,0 +1,74 @@
+/* All Style*/
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+}
+
+/* Header Style*/
+
+section{
+    height: 500px;
+}
+
+.top-banner{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h1 span{
+    font-weight: 800;
+    color: darkslategrey;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.head-content{
+    margin-top: 15px;
+}
+
+.half-width img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.head-btn{
+    text-decoration: none;
+    background-image: linear-gradient(90deg,lightSalmon, orangeRed);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* Dream Banner Styling*/
+.dream-banner{
+    padding-top: 200px;
+}
+
+.dream-content{
+    padding-top: 50px;
+}
+
+
+.dream-btn{
+    text-decoration: none;
+    background-image: linear-gradient(90deg,blue, cyan);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
